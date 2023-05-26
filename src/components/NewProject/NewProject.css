@@ -1,0 +1,122 @@
+.MainNP{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px solid #000; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TitleNP{
+    display: flex;
+    /* border: 1px solid yellow; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.SubTitleNP{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: gray;
+}
+
+.BoxNameProject{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ProjectName p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.InputProjectName input{
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.BoxProjectBudget{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ProjectBudget p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.InputProjectBudget input{
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.BoxProjectCategory{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ProjectCategory p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.InputProjectCategory select{
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: grey;
+}
+
+.MainButtonn{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.MainButtonn button{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+.ProjectLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.MainButtonn button:hover{
+    color: rgb(255, 172, 19);
+    text-decoration: none;
+}

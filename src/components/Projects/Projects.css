@@ -1,0 +1,47 @@
+.MainProjects{
+    height: 100vh;
+    width: 90%;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+
+.BoxTitleProject{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+
+.BoxTitle h1{
+    font-size: 40px;
+}
+
+.MainButtonnn{
+        /* border: 1px solid yellow; */
+        display: flex;
+        align-items: center;
+}
+
+.MainButtonnn button{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 16px;
+    width: 155px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+.ProjectLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.MainButtonnn button:hover{
+    color: rgb(255, 172, 19);
+    text-decoration: none;
+}

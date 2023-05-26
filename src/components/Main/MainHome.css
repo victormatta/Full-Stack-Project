@@ -1,0 +1,88 @@
+.Main{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px solid #000; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MainTitle{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.MainTitle h1{
+    font-size: 60px;
+}
+
+.CompanyTitle{
+    width: 120px;
+    height: 80px;
+    background-color: #1f1f1f;
+    color: rgb(255, 172, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.MainParagraph{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.MainParagraph p{
+    font-size: 20px;
+    color: #757575;
+}
+
+.MainButton{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainButton button{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 18px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+.ProjectLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.MainButton button:hover{
+    color: rgb(255, 172, 19);
+    text-decoration: none;
+}
+
+.MainIcon{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.MainIcon img{
+    width: 600px;
+    height: 600px;
+}
