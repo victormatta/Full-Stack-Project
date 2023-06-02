@@ -1,0 +1,42 @@
+.ProjectBox {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #858585;
+    box-shadow: 5px 5px 10px 10px #858585;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectBox .BoxName {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.ProjectBox .BoxName p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ProjectBox .BoxBudget {
+    background-color: blue;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+.ProjectBox .BoxBudget p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ProjectBox .BoxCategory {
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+.ProjectBox .BoxCategory p {
+    font-size: 18px;
+    font-weight: bold;
+}

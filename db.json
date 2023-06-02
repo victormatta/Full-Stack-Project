@@ -1,32 +1,26 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "projects": [
     {
-      "ProjectName": "Fauna da Marresinha",
-      "BudgetProject": "5000000",
+      "ProjectName": "Teste",
+      "BudgetProject": "10000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Development"
       },
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "ProjectName": "Victor",
+      "BudgetProject": "20000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [

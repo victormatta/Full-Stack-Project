@@ -1,8 +1,10 @@
 .MainProjects{
     height: 100vh;
     width: 90%;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .BoxTitleProject{
@@ -11,7 +13,7 @@
     /* border: 1px solid red; */
     justify-content: space-between;
     margin-top: 70px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 
 .BoxTitle h1{
@@ -44,4 +46,52 @@
 .MainButtonnn button:hover{
     color: rgb(255, 172, 19);
     text-decoration: none;
+}
+
+.ProjectBox {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #858585;
+    box-shadow: 5px 5px 10px 10px #858585;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectBox .BoxName {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.ProjectBox .BoxName p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ProjectBox .BoxBudget {
+    background-color: blue;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+.ProjectBox .BoxBudget p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ProjectBox .BoxCategory {
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+.ProjectBox .BoxCategory p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Card {
+    display: flex;
+    margin: 30px;
 }
