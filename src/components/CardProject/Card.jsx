@@ -1,25 +1,27 @@
 import "./Card.css";
-// import { BsPencil, BsTrashFill } from "react-icons/bs";
+import { BsTrashFill } from "react-icons/bs";
 
-function Card({ name, budget, category }) {
+function Card({ name, budget, category, onRemove }) {
   return (
     <div className="ProjectBox">
       <div className="BoxName">
         <p>{name}</p>
+        <div className="Trash" onClick={onRemove}>
+          <BsTrashFill />
+        </div>
       </div>
 
       <div className="BoxBudget">
-        <p>Budget: R$ {budget}</p>
+        <p>
+          Budget: <span>R$ {budget}</span>
+        </p>
       </div>
 
       <div className="BoxCategory">
-        <p>Category: {category}</p>
+        <p>
+          Category: <span>{category}</span>
+        </p>
       </div>
-
-      {/* <div>
-        <BsPencil />
-        <BsTrashFill />
-      </div> */}
     </div>
   );
 }
